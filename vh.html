@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chúc mừng sinh nhật</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fff8f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+      }
+      .note {
+        background-color: #fffbe6;
+        border: 2px dashed #f4c542;
+        padding: 20px 30px;
+        width: 360px;
+        min-height: 200px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        line-height: 1.6;
+        font-size: 16px;
+        position: relative;
+        margin-top: 20px;
+      }
+
+      .note::before {
+        content: "📌";
+        position: absolute;
+        top: -15px;
+        left: 15px;
+        font-size: 24px;
+      }
+
+      .note h2 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #cc6600;
+      }
+
+      audio {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Ảnh bánh sinh nhật -->
+
+    <!-- Ghi chú tâm sự -->
+    <div class="note">
+      <h2>Hi Thu Hiền</h2>
+      Hôm nay là sinh nhật của em, thật tuyệt vời khi mà anh được cùng em đón
+      sinh nhật<br /><br />
+      Đây là lần đầu tiên anh đón sinh nhật cùng em nhưng mà tụi mình đã cùng
+      nhau trải qua nhiều chuyện vui buồn có nhau, tụi mình đừng rời xa nhau
+      nhé.<br /><br />
+      Anh hi vọng là tụi mình sẽ cùng nhau đón sinh nhật mỗi năm. Lần tới hai
+      đứa mình sẽ ở bên nhau đón sinh nhật hong phải xa nhau như bây giờ:3<br /><br />
+      Còn phần dài của tâm thư anh gói gọn trong hộp quà gửi cho em bé, anh yêu
+      em bé Thu Hiền. <br /><br />
+      Chúc em bé có một sinh nhật thật vui vẻ 🎂💖
+    </div>
+
+    <!-- Nhạc nền -->
+    <audio controls autoplay hidden loop>
+      <source src="vh.mp3" type="audio/mpeg" />
+      Lỗi òi
+    </audio>
+  </body>
+</html>
